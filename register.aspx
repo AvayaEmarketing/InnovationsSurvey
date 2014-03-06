@@ -5,8 +5,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Avaya - Register Form</title>
-    <link href="css/general.css" rel="stylesheet" type="text/css" />
     <link href="css/messi.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/prettyLoader.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.js"></script>
     <script src="js/messi.js"></script>
@@ -24,11 +24,25 @@
 
 <body>
     <script src='//tealium.hs.llnwd.net/o43/utag/avaya/main/prod/utag.js'></script>
-    <center>
-        <h2>Your feedback is appreciated!</h2>
-        <p>Thank you for taking a few minutes to complete this brief survey about Avaya Innovations. <br/>
-            Your answers will help us better understand how to improve the magazine and bring you more relevant,<br /> timely, useful information to help your business succeed.</p>
-<table width="650" border="0" cellspacing="0" cellpadding="0">
+      <div class="navtop">
+        <div class="cont">
+            <img src="img/avaya.png" alt="">
+        </div>
+      </div>
+      <div class="header">
+          <div class="headerin">
+            <h2>Your feedback is appreciated!</h2>
+          <p>Thank you for taking a few minutes to complete this brief survey about Avaya Innovations. <br/>
+              Your answers will help us better understand how to improve the magazine and bring you more relevant, timely, useful information to help your business succeed.</p>
+          </div>
+
+          <div class="headerin">
+            <img src="img/header.jpg" alt="">
+          </div>
+      </div>
+    <div class="container">
+    
+<table width="650" border="0" cellspacing="0" cellpadding="0" aling="center">
   
   <tr>
     <td align="left" style="font-family:Arial, Helvetica, sans-serif; font-size: 13px; text-align:left; padding: 20px"><table width="610" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -45,7 +59,7 @@
               <tr valign="baseline">
                 <td nowrap="nowrap" align="left">&nbsp;</td>
                 <td nowrap="nowrap" align="left">&nbsp;</td>
-                <td align="left"><font color="#CC0000">*</font> <font color="#999999">Campo Obligatorio</font></td>
+                <td align="right"><font color="#CC0000">*</font> <font color="#999999">Mandatory Field</font></td>
                 </tr>
               <tr valign="baseline">
                 <td nowrap="nowrap" align="left">&nbsp;</td>
@@ -68,8 +82,10 @@
                   </select></td>
               </tr>
              
-              
+              <hr>
               <tr valign="baseline">
+
+                
                 <td nowrap="nowrap" align="left"><font color="#CC0000">*</font></td>
                                                              
                 <td colspan="2" align="left" nowrap="nowrap">2.  How would you prefer to read Avaya Innovations? [Please select up to two choices only.] </td>
@@ -190,7 +206,7 @@
               <tr valign="baseline">
                 <td nowrap="nowrap" align="left">&nbsp;</td>
                 <td nowrap="nowrap" align="left">&nbsp;</td>
-                <td align="right"><input type="image" src="images/submit.jpg" id="accept"/></td>
+                <td align="right"><input type="image" src="img/submit.png" id="accept"/></td>
                 </tr>
               </table>
             
@@ -201,6 +217,6 @@
   </tr>
   </table>
 
-</center>
+</div>
 </body>
 </html>
