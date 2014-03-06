@@ -20,6 +20,14 @@
 
     <meta name="WT.si_x" content="1" />
 
+
+    <script type="text/javascript" src="[JS library]"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+
+
 </head>
 
 <body>
@@ -30,14 +38,14 @@
         </div>
       </div>
       <div class="header">
-          <div class="headerin">
+          <div class="headerin01">
             <h2>Your feedback is appreciated!</h2>
           <p>Thank you for taking a few minutes to complete this brief survey about Avaya Innovations. <br/>
               Your answers will help us better understand how to improve the magazine and bring you more relevant, timely, useful information to help your business succeed.</p>
           </div>
 
-          <div class="headerin">
-            <img src="img/header.jpg" alt="">
+          <div class="headeri02">
+            <img src="img/header.jpg" width="520" height="206" alt="" style="margin-top:30px;">
           </div>
       </div>
     <div class="container">

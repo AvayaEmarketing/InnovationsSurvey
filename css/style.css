@@ -75,31 +75,30 @@ h2{
 
 }
 
-.header .headerin:first-child{
+.header .headerin01{
   width: 40%;
   display: inline-block;
   float: left;
   
 }
 
-.header .headerin:last-child{
+.header .headerin02{
   width: 60%;
   display: inline-block;
   float: left;
-
-
 }
 
 .header .headerin img{
   width: 95%;
   margin-top:32px;
-  right: 0; 
-  padding-left: 25px;
 }
 
 
 .container{
+  position: absolute;
   width: 950px;
   height: auto;
-  margin: 0 auto;
+  margin-left: -475px;
+  left: 50%;
+  top: 350px;
 }
