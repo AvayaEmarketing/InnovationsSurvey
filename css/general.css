@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+select{
+	font-size:11px;
+	font-family:verdana;
+	color:#666;
+}
+
+td{
+	font-family:verdana;
+	font-size:11px;
+}
+
+h3{
+	color:#FFF;
+}
+
+.estilotextarea4 {
+	background-color: transparent;
+	border: 1px solid #000000;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-base-color: #000033;
+	scrollbar-dark-shadow-color: #336699;
+	scrollbar-track-color: #BF1E2D;
+	scrollbar-face-color: #BF1E2D;
+	scrollbar-shadow-color: #DDDDDD;
+	scrollbar-highlight-color: #CCCCCC;
+} 
+
